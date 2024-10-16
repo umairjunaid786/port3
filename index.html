@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Pacifico&family=Qwitcher+Grypen:wght@400;700&display=swap"
+        rel="stylesheet">
+        <!-- animate style -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <!-- aos animate style -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- Navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="https://logos-world.net/wp-content/uploads/2021/03/Bentley-Logo.png" alt="no image">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home"> Home</a></li>
+                <li class="list-items"><a class="links" href="#about"> About</a></li>
+                <li class="list-items"><a class="links" href="#skill"> Skills</a></li>
+                <li class="list-items"><a class="links" href="#contact"> Contact</a></li>
+
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__jackInTheBox" id="username">I'm Andres <span id="lname">Bentley</span></h1>
+                <p id="user-details">this is my official portfolio website to describe all <br>
+                    details and work experience in web development</p>
+                <a id="downlod" href="./images/sample.pdf" download="">DOWNLOAD CV</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./images/bg-final.png" alt="shape">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./images/businesslady-final.png" alt="girl">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead"> About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="zoom-in-left" class="aboutimage">
+                    <img class="img1"
+                        src="./images/people-working-concept-illustration_958800-113299-removebg-preview.png"
+                        alt="no image">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias enim quos perferendis dolorum
+                        officiis alias voluptatem accusamus illo. Quas accusamus ad molestias eveniet deserunt? Enim
+                        accusantium accusamus explicabo voluptatibus molestias.</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Andres Bentley</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>985789686</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>andresben866@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skill -->
+        <section id="skill">
+            <div class="sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <div class="skillcontents">
+                <div class="progressbar">
+                    <!-- progressbars -->
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercent">84%</span>
+                        <div class="basebar"></div>
+                        <div class="htmlbar basebar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barpercent">79%</span>
+                        <div class="basebar"></div>
+                        <div class="cssbar basebar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">JS</h3>
+                        <span class="barpercent">70%</span>
+                        <div class="basebar"></div>
+                        <div class="jsbar basebar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">REACT</h3>
+                        <span class="barpercent">85%</span>
+                        <div class="basebar"></div>
+                        <div class="reactbar basebar"></div>
+                    </div>
+                </div>
+                <div data-aos="flip-up" class="skillimage">
+                    <img width="100%" src="./images/GEN-Palmer-Skills-Atrophy-1290x860-1-removebg-preview.png"
+                        alt="no image">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contacts</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <div class="iconcollection">
+                <!-- linkedin -->
+                 <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+                 </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                 </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                 </div>
+                <!-- whatsapp -->
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                 </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                 </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                 </div>
+
+            </div>
+
+
+
+        </section>
+        <!-- footer -->
+         <footer>
+            <p id="copyright">&copy;My portfolio website -october 2024,All rightreserved to &reg;</p>
+            <div class="icon uparrow">
+                <a href="#container" target="_blank"><i class="fa-solid fa-chevron-up brands "></i></a>
+             </div>
+         </footer>
+    </div>
+</body>
+<!-- aos script file link -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
